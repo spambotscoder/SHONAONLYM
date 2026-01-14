@@ -36,15 +36,15 @@ API_KEY = getenv("API_KEY", 'NONE' ) # youtube song api key, generate free key o
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/sparshshivhare2007-pixel/DESTINY_MUSIC_BOT",
+    "https://github.com/spambotscoder/SHONAONLYM",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/alfaaz_edard")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/destinybots")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/shona_bots")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+SUTClHsXAmg1YjNl")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -85,7 +85,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/gnzkrj.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/oj7dil.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://files.catbox.moe/gnzkrj.jpg"
@@ -121,6 +121,7 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
 
 
